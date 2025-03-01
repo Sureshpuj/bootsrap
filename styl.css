@@ -1,0 +1,123 @@
+
+#bgcolor{
+    background-color: rgb(72, 255, 0);
+}
+#new{
+    border-color: white;
+}
+
+#bgcolor {
+    background-color: #32CD32;
+    padding: 10px;
+}
+#bgcolor p {
+    margin: 0;
+    justify-items: center;
+    font-size: 14px;
+    
+    color: white;
+}
+
+.navbar {
+    margin-top: 10px; 
+}
+/* #icon{ */
+
+/* } */
+#img{
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#img{
+    
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: ; */
+    transition-duration: 2s;
+    transform: inherit ;
+}
+
+
+
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+#buttons{
+    justify-content: center;
+    align-content: center;
+    color: black;
+    /* background-color: #f8faf8; */
+    transition-duration: 1s;
+    transition-property:all ;
+    
+
+}
+#buttons:hover {
+    /* background-color: azure; */
+    color: rgb(27, 1, 1);
+    /* box-shadow: 12px 12px 50px rgb(27, 9, 9); */
+    transform: scale(1.2);
+    
+    /* transform:rotate(360deg)  */
+}
+#img1 {
+    margin: 30px;
+    margin-left: 20px;
+    /* radius: 20px; */
+}
+#img2{
+    background-color: #abdbe3;
+    
+}
+#img3 {
+    transition-duration: 1s;
+    transition-property:text ;
+}
+#img3 :hover{
+    /* background-color: null; */
+    box-shadow: 12px 12px 50px gray;
+    transform-style: scale(2);
+
+}
+#buttons1{
+    color: black;
+}
+#buttons1:hover{
+    text-shadow: 5px 2px 20px rgb(24, 4, 4);
+
+}
+body:has(input::before){
+    transition-duration: 10s;
+}
+
+
+body:has(input:checked){
+    /* background-color: aliceblue; */
+    background: rgba(0, 0, 0, 0.315);
+    transition-duration: 10s;
+
+}
+body:has(input:checked){
+    color: #011301;
+}
+#footer{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #32CD32;
+}
+#footer ul li{
+    display: none;
+    display: block;
+    justify-content: center;
+}
+#footer ul li h1{
+   font-size:25px;
+   justify-content: center;
+}
